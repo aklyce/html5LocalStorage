@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Shopping List</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <script src="/main.js"></script>
+        <link rel="stylesheets" href="/styles.css">
+	</head>
+
+	<body onload="CheckBrowser()">
+        <h1> Enter Items and Quantity</h1>
+        <form name="ShoppingList">
+        <div id="shopping">
+            <table>
+                <tr>
+                    <td>Item<input type="text" name="name"></td>
+                    <td>Quantity<input type="text" name="data"></td>
+                </tr>
+                <tr>
+                    <td> 
+                        <input type="button" value="Save" onClick='SaveItem()'>
+                        <input type="button" value="Modify" onClick="ModifyItem()">
+                        <input type="button" value="Remove" onClick="RemoveItem()">
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="items_table">
+            <h1> Shopping List</h1>
+            <table id="list">
+            </table>
+            <p>
+                <label><input type="button" value="clear" onClick="ClearAll()"> Remove All Items</label>
+            </p>
+        </div>
+            </form>
+
+	</body>
+</html>

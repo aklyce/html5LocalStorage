@@ -1,0 +1,40 @@
+h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+td,th {
+    font-family: sans-serif;
+    padding: 4px;
+    background-color: #ccc;
+}
+
+label {
+    vertical-align: top;
+}
+
+input, select, textarea {
+    width: auto;
+    margin-left: 8px;
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+
+#shopping {
+    border: 1px dotted blue;
+    padding: 6px;
+    background-color: #ccc;
+    
+}
+
+#items_table {
+    border: 1px dotted blue;
+    padding:6px;
+    margin-top: 12px;
+}
+
+#items_table h1 {
+    font-size: 18px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
